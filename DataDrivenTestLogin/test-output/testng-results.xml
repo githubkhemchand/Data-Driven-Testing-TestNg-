@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30709" started-at="2019-04-27T09:34:02Z" finished-at="2019-04-27T09:34:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30709" started-at="2019-04-27T09:34:02Z" finished-at="2019-04-27T09:34:32Z">
+      <class name="login.WordpressLogin">
+        <test-method status="PASS" signature="loginwithwordpree(java.lang.String, java.lang.String)[pri:0, instance:login.WordpressLogin@7dc7cbad]" name="loginwithwordpree" duration-ms="15026" started-at="2019-04-27T09:34:02Z" data-provider="wordpressata" finished-at="2019-04-27T09:34:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mahajankhemchand@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wordpress@123...@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithwordpree -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:login.WordpressLogin@7dc7cbad]" name="closewindow" is-config="true" duration-ms="132" started-at="2019-04-27T09:34:17Z" finished-at="2019-04-27T09:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+        <test-method status="PASS" signature="loginwithwordpree(java.lang.String, java.lang.String)[pri:0, instance:login.WordpressLogin@7dc7cbad]" name="loginwithwordpree" duration-ms="13443" started-at="2019-04-27T09:34:17Z" data-provider="wordpressata" finished-at="2019-04-27T09:34:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mahajan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithwordpree -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:login.WordpressLogin@7dc7cbad]" name="closewindow" is-config="true" duration-ms="2070" started-at="2019-04-27T09:34:30Z" finished-at="2019-04-27T09:34:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- login.WordpressLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
